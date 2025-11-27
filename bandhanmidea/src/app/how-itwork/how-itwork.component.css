@@ -1,0 +1,58 @@
+.how-it-works-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #faf8fc;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  
+  .title .highlight {
+    color: #e91e63;
+  }
+  
+  .steps-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+  }
+  
+  .step-card {
+    background-color: #fff5f8;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    max-width: 220px;
+    flex: 1 1 220px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .step-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+  }
+  
+  .step-card .icon {
+    font-size: 36px;
+    color: #9c27b0;
+    margin-bottom: 15px;
+  }
+  
+  .step-card h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #3c2c69;
+  }
+  
+  .step-card p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.5;
+  }
+  
